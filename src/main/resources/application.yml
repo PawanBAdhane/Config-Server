@@ -1,0 +1,5 @@
+spring.cloud.config.server.git.uri: https://github.com/PawanBAdhane/configuration.properties.git
+clone-on-start: true
+management.security.enable: false
+#"clone-on-start" Always clone properties from git report while start
+#"management.security.enable"to connect config server need to disable security part
